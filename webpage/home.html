@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        header {
+            height: 40vh;
+            /* 60% of viewport height */
+            background-image: url(i1.jpg);
+            /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+
+
+        .logo {
+            border-radius: 50%;
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            width: 130px;
+        }
+
+        nav {
+            position: absolute;
+            top: 70px;
+            right: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 50px;
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-family: sans-serif;
+            color: rgb(82, 81, 81);
+            font-size: 30px;
+        }
+
+        .laptop-type {
+            display: inline-block;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .laptop-type a img {
+            width: 200px;
+            height: 150px;
+        }
+
+        .laptop-type a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="p2.png" alt="Laptop Store Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Choose Your Laptop</h2>
+        <div class="laptop-type">
+            <a href="professional.html">
+                <img src="p3.jpg" alt="Professional Laptop">
+                <p>Professional Laptops</p>
+            </a>
+        </div>
+
+        <div class="laptop-type">
+            <a href="gaming.html">
+                <img src="p4.jpg" alt="Gaming Laptop">
+                <p>Gaming Laptops</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+
+        <p>&copy; 2023 Laptop Store. All Rights Reserved.</p>
+        <p>Trusted Online Laptop Store</p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Laptops</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .content {
+            padding-top: 80px;
+            width: 100%;
+        }
+
+        .search-bar {
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+
+        .laptop-container {
+            width: 250px;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .laptop-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            background-color: #fafafa;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gaming Laptops</h1>
+    </header>
+
+    <div class="content">
+        <div class="search-bar">
+            <input type="text" placeholder="Search Laptops">
+        </div>
+
+        <section>
+            <div class="laptop-container">
+                <img src="g1.png" alt="Laptop 1">
+                <p>Lenovo LOQ Intel Core i5-13450HX</p>
+                <p>Price:55,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g2.png" alt="Laptop 2">
+                <p>Acer ALG Gaming 12th Gen</p>
+                <p>Price:50,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g3.png" alt="Laptop 3">
+                <p>HP Victus, 13th Gen Intel</p>
+                <p>Price:45,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g4.png" alt="Laptop 4">
+                <p>ASUS TUF Gaming A15</p>
+                <p>Price:40,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g3.png" alt="Laptop 5">
+                <p>HP Victus, 13th Gen Intel</p>
+                <p>Price:60,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g4.png" alt="Laptop 6">
+                <p>ASUS TUF Gaming A15</p>
+                <p>Price:65,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g1.png" alt="Laptop 7">
+                <p>Lenovo LOQ Intel Core i5-13450HX</p>
+                <p>Price:35,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g2.png" alt="Laptop 8">
+                <p>Acer ALG Gaming 12th Gen</p>
+                <p>Price:30,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g1.png" alt="Laptop 7">
+                <p>Lenovo LOQ Intel Core i6-13450HX</p>
+                <p>Price:75,000</p>
+            </div>
+            <div class="laptop-container">
+                <img src="g2.png" alt="Laptop 8">
+                <p>Acer ALG Gaming 11th Gen</p>
+                <p>Price:35,000</p>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
